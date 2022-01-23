@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .attribution {
+  color: #BDBDBD;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 114px;
+  padding-bottom: 24px;
+}
+
+.wrapper .attribution a {
+  color: #BDBDBD;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 20px 25px;
+}
+
+header .logo {
+  color: #333333;
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -.08em;
+  line-height: 25.18px;
+  text-transform: uppercase;
+}
+
+section img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding-top: 44px;
+  padding-right: 44px;
+  padding-bottom: 60px;
+  padding-left: 44px;
+}
+
+section .copy {
+  font-family: "Space mono", monospace;
+  padding-left: 24px;
+}
+
+section .copy .title {
+  max-width: 370px;
+  color: #333333;
+  font-size: 48px;
+  line-height: 71px;
+  font-weight: bold;
+  letter-spacing: -.035em;
+  padding-bottom: 30px;
+}
+
+section .copy .paragraph {
+  max-width: 370px;
+  color: #4f4f4f;
+  font-size: 18px;
+  padding-right: 24px;
+  padding-bottom: 66px;
+}
+
+section .copy .button {
+  display: inline-block;
+  color: white;
+  background-color: #333333;
+  padding: 24px 43px;
+  cursor: pointer;
+}
+
+section .copy .button .text {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 420px) {
+  .wrapper {
+    min-height: 100vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section img {
+    max-width: 540px;
+    height: 100%;
+    margin-right: 118px;
+  }
+  section .copy .title {
+    max-width: 586px;
+    font-size: 64px;
+    line-height: 95px;
+    padding-bottom: 36px;
+  }
+  section .copy .paragraph {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 460px;
+    padding-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrapper {
+    min-height: 100vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header {
+    padding: 40px 70px;
+  }
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  section img {
+    max-width: 540px;
+    height: 100%;
+    padding: 0;
+    margin-right: 118px;
+  }
+  section .copy .title {
+    max-width: 586px;
+    font-size: 64px;
+    line-height: 95px;
+    padding-bottom: 36px;
+  }
+  section .copy .paragraph {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 460px;
+    padding-bottom: 64px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
